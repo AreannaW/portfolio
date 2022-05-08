@@ -11,14 +11,32 @@
 </head>
 
 <body>
-    <header>
+    <header class="table">
         <p class="name">Areanna Whittington</p>
-        <ul>
-            <li><a href="/home.html">Home</a></ol>
-            <li> <a href="/page.html">Projects</a></li>
+        <ul class="menu hamburger">
+            <li ><a id="menu" class="here" href="/home.html">Home</a></ll>
+            <li > <a id="menu" href="">Projects</a>
+              <ul>
+                    <li><a href="">Arey's Creations</a></li>
+                    <li><a href="projects/helppro.html">Help Pro</a></li>
+                <li><a href="projects/areys.html">Royal Horizon Productions</a></li>
+                </ul>
+            </li>
+            <li > <a id="menu"href="">Contact</a></li>
         </ul>
+       
+      
     </header>
     <main>
+        <div class="row first">
+            <img class="me" src="/media/me.png" alt="Areanna WHittington">
+            <div class="intro">
+                <h1>Hello, I'm Areanna Whittington</h1>
+                <p>
+                    Hello, I'm Areanna Whittington
+                    I am a current student at Columbia College Chicago. I'm studying Web and App Development.</p>
+            </div>
+        </div>
         <div class="row">
             <video class="row--img vid row1" loop autoplay autobuffer controls muted>
                 <source src="/media/acvideo.mp4" type="video/mp4">
@@ -33,16 +51,24 @@
 
         </div>
         <div class="row">
-            <p class="row--text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis quia dignissimos nulla
-                aperiam, vel saepe repudiandae ad consectetur deserunt, repellat tempore officiis? Similique est
-                laboriosam exercitationem ut nostrum tempora adipisci?</p>
-            <img src="//picsum.photos/id/501/600/500" alt="" class="row--img">
+            <video class="row--img vid2 row2" loop autoplay autobuffer controls muted>
+                <source src="/media/helppro.mp4" type="video/mp4">
+            </video>
+            <div class="row--text center">
+                <h2>Help Pro</h2>
+                <p>An organizing app that helps you time manage and stay focused.</p>
+               <h4> <a class="botton" href="/projects/helppro.html">View Project</a></h4>
+            </div>
         </div>
         <div class="row">
-            <p class="row--text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis quia dignissimos nulla
-                aperiam, vel saepe repudiandae ad consectetur deserunt, repellat tempore officiis? Similique est
-                laboriosam exercitationem ut nostrum tempora adipisci?</p>
-            <img src="//picsum.photos/id/502/600/500" alt="" class="row--img">
+            <video class="row--img vid row3" loop autoplay autobuffer controls muted>
+                <source src="/media/RHPvideo (1).mp4" type="video/mp4">
+            </video>
+            <div class="row--text center">
+                <h2>Royal Horizon Productions</h2>
+                <p>A multimedia production company made created Radazaih Whittington. </p>
+               <h4> <a class="botton" href="/projects/rhp.html">View Project</a></h4>
+            </div>
         </div>
     </main>
 </body>
